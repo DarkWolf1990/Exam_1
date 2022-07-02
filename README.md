@@ -12,7 +12,7 @@ __________
 
 ___
 # План действий!
-[image the plan doings](../Exam_1/image/plan.jpg) 
+[Image The plan doings](../Exam_1/image/plan.jpg) 
 ___
 
 1. _Создать репозиторий на GitHub;_
