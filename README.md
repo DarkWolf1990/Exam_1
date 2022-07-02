@@ -20,7 +20,7 @@ __________
 ___
 # План действий!
 ______________
-![image the plan doings](../Exam_1/image/plan.jpg) 
+![image the plan doings](../Exam_1/image/18940_0.jpg) 
 
 ___
 
