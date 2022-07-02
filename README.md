@@ -1,3 +1,10 @@
+ 
+ # <span style="color:blue"> Краткое описание задачи!</span>
+
+**Это программа которая формирует массив из строк, длина которых меньше или равна 3 символам.**
+
+<span style="color:yellow"> *It is a program that forms an array of strings whose length is less than or equal to 3 characters.*</span>
+
  _____________
  #  _Задача_
 __________
@@ -12,7 +19,9 @@ __________
 
 ___
 # План действий!
-[Image The plan doings](../Exam_1/image/plan.jpg) 
+______________
+![image the plan doings](../Exam_1/image/plan.jpg) 
+
 ___
 
 1. _Создать репозиторий на GitHub;_
