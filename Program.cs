@@ -11,42 +11,43 @@
 // `["1234", "1567","-2","computer science"] -> ["-2"]`
 // `["Russia","Denmark","Kazan"]->[]`
 
-
-
-
-
 Console.Clear();
 
-string[] outputArray (string[] inputArray)
+string[] outputArray(string[] inputArray)
 {
-	  int size = 3;
-    int count = 0;
-    for (int i = 0; i < inputArray.Length; i++)
-    {
-        if (inputArray[i].Length <= size)
-        {
-            count++;
-        }
-    }
+	int size = 3;
+	int count = 0;
+	for (int i = 0; i < inputArray.Length; i++)
+	{
+		if (inputArray[i].Length <= size)
+		{
+			count++;
+		}
+	}
 
-    string[] outputArray = new string [count];
-    for (int i = 0, j = 0; i < inputArray.Length; i++)
-    {
-        if (inputArray[i].Length <= size)
-        {
-            outputArray[j] = inputArray[i];
-            j++;
-        }
-    }
-    return outputArray;
+	string[] outputArray = new string[count];
+	for (int i = 0, j = 0; i < inputArray.Length; i++)
+	{
+		if (inputArray[i].Length <= size)
+		{
+			outputArray[j] = inputArray[i];
+			j++;
+		}
+	}
+	return outputArray;
 }
 
+void PrintArray(string[] inputArray)
+{
+	for (int i = 0; i < inputArray.Length; i++)
+	{
+		Console.Write($"{inputArray[i]}, ");
+	}
+	Console.WriteLine();
+}
 
-
-
-
-
-
-string[] inputArray = {"Hello", "2", "world", ":-)"};
+string[] inputArray = { "Hello", "2", "world", ":-)" };
 PrintArray(inputArray);
-PrintArray(outputArray(inputArray)); 
+PrintArray(outputArray(inputArray));
+
+Console.ReadKey();
