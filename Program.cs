@@ -46,7 +46,7 @@ void PrintArray(string[] inputArray)
 	Console.WriteLine();
 }
 
-string[] inputArray = { "1234", "1567","-2","computer science" };
+string[] inputArray = { "1234", "1567", "-2", "computer science" };
 PrintArray(inputArray);
 PrintArray(outputArray(inputArray));
 
