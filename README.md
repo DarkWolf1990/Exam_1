@@ -35,4 +35,4 @@ ___
 
 ----
 
-![ flowchart ](../Exam_1/image/flowchart.drawio_copy.jpg)
+![ flowchart ](../Exam_1/flowchart.drawio.png)
