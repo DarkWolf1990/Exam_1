@@ -46,6 +46,7 @@ string[] outputArray (string[] inputArray)
 
 
 
+
 string[] inputArray = {"Hello", "2", "world", ":-)"};
 PrintArray(inputArray);
 PrintArray(outputArray(inputArray)); 
